@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
 }
 h1, h2, h3 {
+  opacity: 1;
   margin-bottom: 5%;
   text-align: center;
   font-weight: 400;
@@ -39,6 +40,7 @@ body {
 }
 
 #home-text {
+  opacity:1;
   background-color:  rgb(105,105,105,0.3);
   width: 90%;
   margin: auto;
@@ -225,10 +227,15 @@ li {
   width: 90%;
 }
 
+.flex-projects p{
+  color: gray;
+}
+
 .flex-projects div{
-  background: rgb(169, 169, 169, 0.9);
+  background: white;
   margin-bottom: 10%;
   padding: 2%;
+  box-shadow: 5px 10px 8px black;
 }
 
 .zoom:hover {
